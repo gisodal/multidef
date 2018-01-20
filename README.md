@@ -1,21 +1,27 @@
 # Multidef
 
-How to have multiple implementations of the same c++ class function using namespaces
+Method to have multiple implementations of the same c++ class function using namespaces.
 
 In this repository there are 3 different implementations of ```Add()``` that can be called.
 
 ```
+#include "foo.h"
+
+int main(int argc, char **argv){
     Foo foo;
     foo.Print();
 
-    foo.Add();  // adds 1
+    foo.Add();
     foo.Print();
 
-    foo.Implementation1::Add(); // adds 10
+    foo.Implementation1::Add();
     foo.Print();
 
-    foo.Implementation2::Add(); // adds 100
+    foo.Implementation2::Add();
     foo.Print();
+
+    return 0;
+}
 ```
 
 Output:
