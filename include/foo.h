@@ -13,7 +13,7 @@ class Foo :
     public:
         Foo();
         void Add();
-        unsigned int Value();
+        void Print();
     private:
         unsigned int number;
 };

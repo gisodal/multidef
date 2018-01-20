@@ -2,11 +2,26 @@
 
 How to have multiple implementations of the same c++ class function using namespaces
 
-In this repository there are are 3 different implementations of ```Add()``` that can be called.
+In this repository there are 3 different implementations of ```Add()``` that can be called.
 
 ```
     Foo foo;
-    foo.Add();
-    foo.Implementation1::Add();
-    foo.Implementation2::Add();
+    foo.Print();
+
+    foo.Add();  // adds 1
+    foo.Print();
+
+    foo.Implementation1::Add(); // adds 10
+    foo.Print();
+
+    foo.Implementation2::Add(); // adds 100
+    foo.Print();
 ```
+
+Output:
+
+    value: 0
+    value: 1
+    value: 11
+    value: 111
+
