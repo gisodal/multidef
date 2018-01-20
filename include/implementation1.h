@@ -4,7 +4,6 @@
 class Foo;
 
 class Implementation1 {
-    friend class Foo;
     public:
         Implementation1();
         void Add();
