@@ -1,6 +1,6 @@
 #include "foo.h"
 
-int main(int argc, char **argv){
+int main(){
     Foo foo;
     foo.Print();
 

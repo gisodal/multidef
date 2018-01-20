@@ -7,7 +7,7 @@ In this repository there are 3 different implementations of ```Add()``` that can
 ```
 #include "foo.h"
 
-int main(int argc, char **argv){
+int main(){
     Foo foo;
     foo.Print();
 
