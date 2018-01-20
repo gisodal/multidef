@@ -1,6 +1,6 @@
 # Multidef
 
-Method to have multiple implementations of the same c++ class function using namespaces.
+Method to have multiple implementations of the same c++ class function.
 
 In this repository there are 3 different implementations of ```Add()``` that can be called.
 
