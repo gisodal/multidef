@@ -11,13 +11,13 @@ int main(int argc, char **argv){
     Foo foo;
     foo.Print();
 
-    foo.Add();
+    foo.Add();                   // adds 1
     foo.Print();
 
-    foo.Implementation1::Add();
+    foo.Implementation1::Add();  // adds 10
     foo.Print();
 
-    foo.Implementation2::Add();
+    foo.Implementation2::Add();  // adds 100
     foo.Print();
 
     return 0;
